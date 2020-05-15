@@ -1,0 +1,115 @@
+canvas {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 2;
+}
+
+#greeting {
+  font-family: "Fredoka One", cursive;
+  font-size: 1.8rem;
+  z-index: 2;
+}
+
+#quotes {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1rem;
+  z-index: 2;
+}
+
+.darkBG {
+  background: linear-gradient(137deg, #2d1f3d, #614385, #516395, #6b82c2);
+  background-size: 800% 800%;
+  color: #121829;
+
+  -o-webkit-animation: darkGradient 11s ease infinite;
+  -o-moz-animation: darkGradient 11s ease infinite;
+  animation: darkGradient 11s ease infinite;
+}
+
+.lightBG {
+  background: linear-gradient(137deg, #ffc3a0, #ffafbd, #dd5e89);
+  background-size: 600% 600%;
+  color: #4f3d3f;
+
+  -o-webkit-animation: lightGradient 8s ease infinite;
+  -o-moz-animation: lightGradient 8s ease infinite;
+  animation: lightGradient 8s ease infinite;
+}
+
+@-webkit-keyframes lightGradient {
+  0% {
+    background-position: 43% 0%;
+  }
+  50% {
+    background-position: 58% 100%;
+  }
+  100% {
+    background-position: 43% 0%;
+  }
+}
+@-moz-keyframes lightGradient {
+  0% {
+    background-position: 43% 0%;
+  }
+  50% {
+    background-position: 58% 100%;
+  }
+  100% {
+    background-position: 43% 0%;
+  }
+}
+@keyframes lightGradient {
+  0% {
+    background-position: 43% 0%;
+  }
+  50% {
+    background-position: 58% 100%;
+  }
+  100% {
+    background-position: 43% 0%;
+  }
+}
+
+@-webkit-keyframes darkGradient {
+  0% {
+    background-position: 43% 0%;
+  }
+  50% {
+    background-position: 58% 100%;
+  }
+  100% {
+    background-position: 43% 0%;
+  }
+}
+@-moz-keyframes darkGradient {
+  0% {
+    background-position: 43% 0%;
+  }
+  50% {
+    background-position: 58% 100%;
+  }
+  100% {
+    background-position: 43% 0%;
+  }
+}
+@keyframes darkGradient {
+  0% {
+    background-position: 43% 0%;
+  }
+  50% {
+    background-position: 58% 100%;
+  }
+  100% {
+    background-position: 43% 0%;
+  }
+}
