@@ -12,4 +12,4 @@ app.get("/", (req, res) => {
   res.status(200).render("index");
 });
 
-app.listen(port, host, console.log(`Listening on ${host}:${port} !`));
+app.listen(port, console.log(`Listening on port ${port} !`));
