@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>{{ documentTitle }}</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- User Style -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <style></style>
+  </head>
+
+  <body>
+    <div id="bg">
+      <div id="particles-js"></div>
+      <div class="container">
+        <div class="text-container">
+          <h1 id="greeting"></h1>
+          <h4 id="quotes"></h4>
+          <em id="quotes-author" class="text-muted"></em>
+        </div>
+      </div>
+    </div>
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    ></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"
+    ></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"
+    ></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/js/mdb.min.js"
+    ></script>
+    <!-- Particles.js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"
+    ></script>
+    <!-- TypeitJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@6.1.1/dist/typeit.min.js"
+    ></script>
+    <script type="text/javascript" src="assets/variables.js"></script>
+    <script type="text/javascript" src="assets/js/functions.js"></script>
+    <script>
+      const greetText = variables.greetings[getTime()];
+      const nickText = random(variables.nicknames);
+      const tmpQuotes = random(Object.keys(variables.quotes));
+      const { quote, author } = variables.quotes[tmpQuotes];
+      let textToWrite = [];
+      // prettier-ignore
+      variables.generated.map(function (text) {
+        textToWrite.push(text.replace("{greetings}", greetText).replace("{nicknames}", nickText));
+      });
+
+      $(document).ready(function () {
+        $("#bg").addClass(getMode(getTime()));
+        generateTypeIt("#greeting", 100, true, textToWrite);
+        generateTypeIt("#quotes", 120, false, quote);
+        $("#quotes-author").html(`- ${author}`);
+        particlesJS.load("particles-js", "assets/particles.json", function () {
+          console.log("callback - particles.js config loaded");
+        });
+      });
+    </script>
+  </body>
+</html>
