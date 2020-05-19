@@ -13,7 +13,7 @@ const variables = {
     { quote: "Rasakan ini hiyaaaa", author: "Zex Courper" },
     { quote: "YAHAHAHAH HAYUUK", author: "Zex Courper" },
   ],
-  nicknames: ["All", "All in groub", "project life", "Dahlah", "Briliant", "first blood"],
+  nicknames: ["All", "All in groub", "project life", "Dahlah", ".", "first blood"],
   generated: ["{greetings}, {nicknames}!"],
 };
 
