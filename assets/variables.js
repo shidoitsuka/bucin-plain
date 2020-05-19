@@ -8,7 +8,7 @@ const variables = {
   },
   quotes: [
     { quote: "Dahlah males gk tau mau nulis apa :(", author: "Cormon Trixford" },
-    { quote: "Wahh tempat ini meme sekali", author: "Zex Courper" },
+    { quote: "Wahh tempat ini indah sekali", author: "Zex Courper" },
     { quote: "Aku punya super power hiyaaaa", author: "Cormon Trixford" },
     { quote: "Kamu tidak akan bisa mengenaiku", author: "Zex Courper" },
     { quote: "Yahaha hayuuuk", author: "Zex Courper" },
@@ -121,7 +121,7 @@ const particlesConfig = {
         particles_nb: 2,
       },
       remove: {
-        particles_nb: 1,
+        particles_nb: 3,
       },
     },
   },
