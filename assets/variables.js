@@ -19,7 +19,7 @@ const variables = {
 
 const particlesConfig = {
   particles: {
-    number: {
+    number: { 
       value: 50,
       density: {
         enable: true,
