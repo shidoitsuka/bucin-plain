@@ -110,7 +110,7 @@ const particlesConfig = {
         distance: 800,
         size: 80,
         duration: 2,
-        opacity: 0.8,
+        opacity: 6.8,
         speed: 3,
       },
       repulse: {
