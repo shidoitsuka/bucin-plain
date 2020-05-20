@@ -4,7 +4,7 @@ const variables = {
     day: "Day Push Rank:v",
     afternoon: "Tahan Puasanya",
     evening: "Ngabuburit Time",
-    night: "Jan malem2 tidurnya woi >:(",
+    night: "Jan malem2 Tidurnya woi >:(",
   },
   quotes: [
     { quote: "Gk tau lah mau nulis apa :(", author: "Cormon Trixford" },
