@@ -2,7 +2,7 @@ const variables = {
   greetings: {
     morning: "Goodluck day,all :)",
     day: "Day Push Rank:v",
-    afternoon: "Tahan Puasanya",
+    afternoon: "p",
     evening: "Ngabuburit Time",
     night: "Jan malem2 Tidurnya woi >:(",
   },
