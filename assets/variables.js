@@ -7,14 +7,14 @@ const variables = {
     night: "Good Night",
   },
   quotes: [
-    { quote: "I'm sorry for loving you.", author: "standinhsd" },
-    { quote: "I love you.", author: "Brian" },
-    { quote: "Aku sayang kamu!", author: "Ian" },
-    { quote: "Ian sayang Ava ♥", author: "Ian-nya Ava!" },
-    { quote: "Love chuuu", author: "Bribri" },
+    { quote: "I'm sorry for loving you.", author: "Desy" },
+    { quote: "I love you.", author: "Dessy" },
+    { quote: "Aku sayang kamu!", author: "Desyy" },
+    { quote: "Semangat kerjanya cinta♥", author: "Desy Fitriani!" },
+    { quote: "Love chuuu", author: "Desyyy" },
   ],
-  nicknames: ["Ava", "Avakuu", "Sayang", "Babe", "Cintaku", "Cinta"],
-  generated: ["{greetings}, {nicknames}!"],
+  nicknames: ["Gantengkuuu", "Isalkuuu", "Sayang", "Babe", "Cintaku", "Cinta"],
+  generated: ["{lopyuuuu}, {isalkuuu}!"],
 };
 
 const particlesConfig = {
