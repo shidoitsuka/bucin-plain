@@ -3,8 +3,8 @@ const variables = {
     morning: "Goode Morning,semangat beraktifitasss",
     day: "Dah siang nih,jgn telat makan yaa",
     afternoon: "Good Afternoon",
-    evening: "Good Evening",
-    night: "Good Night,jgn begadang yaa,kesehatanmu dijaga",
+    evening: "Met Maalammm,jgn kemaleman tidurnyaa",
+    night: "Waktunya istirahat,jgn begadang yaa,kesehatanmu dijaga",
   },
   quotes: [
     { quote: "I'm sorry for loving you.", author: "Abdiel" },
@@ -67,7 +67,7 @@ const particlesConfig = {
     line_linked: {
       enable: true,
       distance: 80,
-      color: "#000",
+      color: "FF1493",
       opacity: 0.4,
       width: 1,
     },
