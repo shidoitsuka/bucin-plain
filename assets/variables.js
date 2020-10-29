@@ -33,7 +33,7 @@ const particlesConfig = {
       type: "image",
       stroke: {
         width: 2,
-        color: "#000000",
+        color: "#FF1493",
       },
       polygon: {
         nb_sides: 5,
