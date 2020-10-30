@@ -12,6 +12,8 @@ const variables = {
     { quote: "Aku sayang kamu!", author: "Dieleleleleee" },
     { quote: "Ora koe ora wae ♥", author: "Dildil!" },
     { quote: "i`m glad we meet", author: "Doell" },
+    { quote: "Ada nama mu dalam setiap doa ku", author: "Calon Imam mu" },
+    { quote: "Mereka yang selalu meminta pengertian, Terkadang lupa memberikan hal yang sama", author: "Hafiz" },
   ],
   nicknames: ["Sayang", "Babe", "Cintaku", "Sweetheart"],
   generated: ["{greetings}, {nicknames}!"],
