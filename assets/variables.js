@@ -1,6 +1,6 @@
 const variables = {
   greetings: {
-    morning: "Goode Morning semangat beraktifitasss",
+    morning: "Good Morning semangat beraktifitasss",
     day: "Dah siang nih jgn telat makan yaa",
     afternoon: "Good Afternoon",
     evening: "Good Evening.. :3",
