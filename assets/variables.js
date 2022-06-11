@@ -18,7 +18,7 @@ const variables = {
     { quote: "tetep semangat yaa apapun keadaanya", author: "ur boyf" },
   ],
   nicknames: ["Sayang", "Babe", "My Love", "Sweetheart", "Darling"],
-  generated: ["{greetings}, {nicknames}!"],
+  generated: ["{greetings}, {nicknames}"],
 };
 
 const particlesConfig = {
