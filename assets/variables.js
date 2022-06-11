@@ -1,20 +1,24 @@
 const variables = {
   greetings: {
-    morning: "Good Morning",
-    day: "Good Day",
-    afternoon: "Good Afternoon",
-    evening: "Good Evening",
-    night: "Good Night",
+    morning: "Morning Darling, enjoy ur day",
+    day: "Udaah siang nih jangan telat makan yaaa",
+    afternoon: "Soree cintakuu, how u doing?",
+    evening: "Evening Honeyy...:3",
+    night: "Night babe, sweet dreamss :)",
   },
   quotes: [
-    { quote: "I'm sorry for loving you.", author: "standinhsd" },
-    { quote: "I love you.", author: "Brian" },
-    { quote: "Aku sayang kamu!", author: "Ian" },
-    { quote: "Ian sayang Ava ♥", author: "Ian-nya Ava!" },
-    { quote: "Love chuuu", author: "Bribri" },
+    { quote: "I'm sorry for loving you.", author: "Abdiel" },
+    { quote: "Take care okaaayy, lov uu.", author: "Abdiel" },
+    { quote: "i lov U 3000 ♥!", author: "diel" },
+    { quote: "ora koe ora wae ♥", author: "diel" },
+    { quote: "i`m glad we meet", author: "ur boyf" },
+    { quote: "ada nama mu dalam setiap doa ku", author: "Calon Imam mu" },
+    { quote: "Mereka yang selalu meminta pengertian, Terkadang lupa memberikan hal yang sama", author: "diel" },
+    { quote: "negatif covid, positif mencintaimu", author: "diel" },
+    { quote: "tetep semangat yaa apapun keadaanya", author: "ur boyf" },
   ],
-  nicknames: ["Ava", "Avakuu", "Sayang", "Babe", "Cintaku", "Cinta"],
-  generated: ["{greetings}, {nicknames}!"],
+  nicknames: ["Sayang", "Babe", "My Love", "Sweetheart", "Darling"],
+  generated: ["{greetings}, {nicknames}"],
 };
 
 const particlesConfig = {
@@ -33,13 +37,13 @@ const particlesConfig = {
       type: "image",
       stroke: {
         width: 2,
-        color: "#000000",
+        color: "#FF1493",
       },
       polygon: {
         nb_sides: 5,
       },
       image: {
-        src: "./assets/heart.png",
+        src: "./assets/heart-red.png",
         width: 50,
         height: 50,
       },
@@ -67,7 +71,7 @@ const particlesConfig = {
     line_linked: {
       enable: true,
       distance: 80,
-      color: "#000",
+      color: "FF1493",
       opacity: 0.4,
       width: 1,
     },
