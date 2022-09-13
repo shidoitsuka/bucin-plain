@@ -1,19 +1,19 @@
 const variables = {
   greetings: {
-    morning: "Good Morning",
-    day: "Good Day",
-    afternoon: "Good Afternoon",
-    evening: "Good Evening",
-    night: "Good Night",
+    morning: "Wake up, Wake up pira",
+    day: "Persiapan Ulangan",
+    afternoon: "Jangan ditunda-tunda mandinya ya ^⁠_⁠^",
+    evening: "Sholat Maghrib sama isya dulu gih",
+    night: "Jan malem2 Tidurnya woi >:(",
   },
   quotes: [
-    { quote: "I'm sorry for loving you.", author: "standinhsd" },
-    { quote: "I love you.", author: "Brian" },
-    { quote: "Aku sayang kamu!", author: "Ian" },
-    { quote: "Ian sayang Ava ♥", author: "Ian-nya Ava!" },
-    { quote: "Love chuuu", author: "Bribri" },
+    { quote: "Gk tau lah mau nulis apa :(", author: "Zex Courper" },
+    { quote: "Wahh tempat ini meme sekali", author: "Zex Courper" },
+    { quote: "Aku punya super power!", author: "Zex Courper" },
+    { quote: "Rasakan ini hiyaaaa", author: "Zex Courper" },
+    { quote: "YAHAHAHAH HAYUUK", author: "Zex Courper" },
   ],
-  nicknames: ["Ava", "Avakuu", "Sayang", "Babe", "Cintaku", "Cinta"],
+  nicknames: ["All", "All in groub", "project life", "Human condition", "Eternity", "The path"],
   generated: ["{greetings}, {nicknames}!"],
 };
 
@@ -110,7 +110,7 @@ const particlesConfig = {
         distance: 800,
         size: 80,
         duration: 2,
-        opacity: 0.8,
+        opacity: 6.8,
         speed: 3,
       },
       repulse: {
